@@ -37,3 +37,10 @@ input.search {
  	display: none;
  }
 
+.display_list{
+ border-radius: 15px;
+ color: white;
+ background-color : grey;
+ border:none; 
+
+}
