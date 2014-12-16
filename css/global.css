@@ -91,9 +91,15 @@ h1{
 	background-color: #5BBCE7;
 }
 
-.line_detail{
+
+span{
 	display: block;
 }
+
+aside > figure > figcaption{
+	display: inline;
+}
+
 
 .selected{
 	background-color: #FCA600;
