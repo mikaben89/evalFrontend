@@ -1,0 +1,23 @@
+/******************/
+/* General Layout */
+/******************/
+
+@font-face {
+    font-family: 'My Lucida';
+    src: url('../font/LucidaGrande.ttf');
+    font-style: normal; 
+    font-weight: bold;
+}
+
+
+/******************/
+/* Header         */
+/******************/
+
+
+/******************/
+/* List           */
+/******************/
+ .metro_list{
+ 	display: none;
+ }
