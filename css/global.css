@@ -1,7 +1,6 @@
 /******************/
 /* General Layout */
 /******************/
-
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
@@ -9,8 +8,17 @@
     font-weight: bold;
 }
 
-*{
-	font-family: 'My Lucida', Console;
+html {
+    font-size: 16px;
+}
+
+* {
+    font-family: 'My Lucida', Console;
+}
+
+body {
+    width : 100%;
+    font-size : 62.5% /*1em = 10px*/
 }
 /******************/
 /* Header         */
@@ -59,16 +67,14 @@ main {
 /******************/
 /* Main - Header  */
 /******************/
-
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 8px;
+h1{
+	font-size: 18px;
 }
 
 /*********************/
 /* Main - Metro List */
 /*********************/
+
  .no_display{
  	display: none;
  }
@@ -83,4 +89,15 @@ h1 {
 
 .display_list:hover{
 	background-color: #5BBCE7;
+}
+
+.line_detail{
+	display: block;
+}
+
+.selected{
+	background-color: #FCA600;
+	color: white;
+	font-weight: bold;
+	list-style-type: none;
 }
