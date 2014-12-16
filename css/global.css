@@ -10,13 +10,29 @@
 }
 
 *{
-
+	font-family: 'My Lucida', Console;
 }
 /******************/
 /* Header         */
 /******************/
 body > header {
-	background: linear-gradient(to bottom, #efefef, white) no-repeat;
+	background: linear-gradient(white, #efefef) no-repeat;
+	box-shadow: 0px 4px 20px #efefef; 
+}
+
+header .logo-search img, header .logo-search form  {
+    float: left;
+    width: 500px;
+}
+
+header .logo-search {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+header .logo-search img{
+	width : 120px;
+	height: auto;
 }
 
 input.search {
@@ -37,3 +53,14 @@ input.search {
  	display: none;
  }
 
+.display_list{
+ border-radius: 15px;
+ color: white;
+ background-color : #AAB3B6;
+ border:none; 
+
+}
+
+.display_list:hover{
+	background-color: #5BBCE7;
+}
