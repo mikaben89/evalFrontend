@@ -15,6 +15,7 @@
 /******************/
 /* Header         */
 /******************/
+
 body > header {
 	background: linear-gradient(white, #efefef) no-repeat;
 	box-shadow: 0px 4px 20px #efefef; 
@@ -22,12 +23,11 @@ body > header {
 
 header .logo-search img, header .logo-search form  {
     float: left;
-    width: 500px;
 }
 
 header .logo-search {
 	margin-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 header .logo-search img{
@@ -36,19 +36,39 @@ header .logo-search img{
 }
 
 input.search {
-  height: 28px;
+  height: 40px;
   width: 300px;
   font-size: 13px;
   padding: 3px 6px 3px 25px;
-  margin: 0 0 0 40px;
+  margin-top: 40px;
   border: 1px solid hsl(209, 36%, 86%);
-  border-radius: 15px;
+  border-radius: 30px;
   box-shadow: inset 1px 1px 5px #d5d5d5;
+  font-size: 15px;
 }
 
 /******************/
-/* Metro List     */
+/* Main           */
 /******************/
+
+main {
+	margin-top : 25px;
+	margin-left: 50px;
+}
+
+/******************/
+/* Main - Header  */
+/******************/
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/*********************/
+/* Main - Metro List */
+/*********************/
  .no_display{
  	display: none;
  }
